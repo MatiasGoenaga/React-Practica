@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Que de lejos parecen moscas",
+    "autor": "Kike Ferrari",
+    "editorial": "Alfaguara",
+    "imagen": "que_de_lejos_parecen_moscas.jpg",
+    "descripcion": "El señor Machi es el perfecto reflejo del éxito y del desprecio. Dueño de un pequeño imperio en Argentina, hizo su fortuna bajo la dictadura militar y luego la afianzó bajo los dos primeros gobiernos de la democracia casándose con una mujer de doble apellido, hija de un terrateniente. Hasta que un día, encuentra un cadáver en el maletero de su BMW, atado con las esposas rosas de peluche que usa con sus amantes. Y entonces empieza otra historia. Con esta novela explosiva y original, Kike Ferrari llamó la atención de la prensa internacional y conquistó a algunos de los mejores editores del mundo. Un auténtico puñetazo en la mandíbula de todos los lectores.",
+    "precio": 2500,
+    "calificacion": "*****"
+  },
+  {
+    "id": 2,
+    "titulo": "Chamamé ",
+    "autor": "Leonardo Oyola",
+    "editorial": "Random House",
+    "imagen": "chamame.jpg",
+    "descripcion": "Mitad western, mitad road movie, Chamamé es una novela salvaje que narra la violencia poniéndola en el ojo del huracán. El Perro y el Pastor son dos criminales despiadados que tomarán rápidamente las armas para batirse a duelo. Chamamé es una historia de amistad, traición, venganza y amor. Publicada originalmente en España, ganó el Premio Dashiell Hammett a la mejor novela policial durante la Semana Negra de Gijón. Con su escritura vertiginosa y visceral, Leonardo Oyola ha demostrado que es uno de los autores más originales del panorama literario de Latinoamérica.",
+    "precio": 2200,
+    "calificacion": "*****"
+  },
+  {
+    "id": 3,
+    "titulo": "El Crimen Perfecto",
+    "autor": "Álvaro Abós",
+    "editorial": "Alfaguara",
+    "imagen": "el_crimen_perfecto.jpg",
+    "descripcion": "Trece historias que revelan obsesiones, impulsos y pasiones humanas -la materia que nutre la literatura-, que narran un asesinato, a veces hijo de la venganza, a veces de la codicia, a veces de una suerte de azar. Trece thrillers, relatos estremecedores donde se cruzan el enigma, el erotismo, el espionaje, la crónica de delitos reales y hasta el humor, fruto de la imaginación, la inteligencia y la pluma de excelentes escritores argentinos. Todo ello encontrará el lector en El crimen perfecto.",
+    "precio": 2300,
+    "calificacion": "****"
+  },
+  {
+    "id": 4,
+    "titulo": "El Hilo de Sangre",
+    "autor": "Ernesto Mallo",
+    "editorial": "Siruela",
+    "imagen": "el_hilo_de_sangre.jpg",
+    "descripcion": "Un inesperado giro del destino ha hecho súbitamente rico al Perro Lascano: el comisario ha recuperado el amor de Eva y se ha jubilado de su puesto en la policía. Su vida se ha vuelto previsible, tranquila y segura. Pero, siendo desde siempre un hombre de acción, el Perro no sabe aburrirse. Por eso, cuando un criminal que agoniza en un hospital penitenciario dice saber quién asesinó a los padres de Lascano cuando este era solo un niño, el excomisario se embarca de inmediato en una obsesiva persecución entre Buenos Aires y Barcelona, poniendo así en peligro cuanto ama, para despejar la incógnita que lo ha acompañado toda la vida.",
+    "precio": 1850,
+    "calificacion": "*****"
+  },
+  {
+    "id": 5,
+    "titulo": "Noxa",
+    "autor": "María Inés Krimer",
+    "editorial": "Revolver",
+    "imagen": "noxa.jpg",
+    "descripcion": "Inquietante y peligrosa como la red de una tarántula africana, la nueva novela de María Inés Krimer nos atrapa en el perdido mundo de un pueblito llanero que se debate entre el boom de la soja y el crimen de las fumigaciones tóxicas. Noxa es la nueva confirmación de que María Inés Krimer es una de las mas singulares narradoras argentinas, trascendiendo su inclinación por el género negro. Volvemos, una vez mas, a disfrutar de su tono descarnado, veloz y cautivante, de la arquitectura sorpresiva de su trama, en un relato con rescoldos chandlerianos, propios de una escritora sagaz, propensa al humor y la ironía.",
+    "precio": 2000,
+    "calificacion": "****"
+  },
+  {
+    "id": 6,
+    "titulo": "El Sueño Eterno",
+    "autor": "Raymond Chandler",
+    "editorial": "Debols!llo",
+    "imagen": "el_suenio_eterno.jpeg",
+    "descripcion": "El sueño eterno (1939) es la primera novela de Raymond Chandler. Escritor icónico y fundador del policial noir americano. El detective Philip Marlowe se enfrenta a un caso que promete ser sencillo, el viejo General Sterwood, paralítico y muy rico, ha recibido una nota de chantaje, que concierne a su hija menor, la salvaje Carmen. Recorriendo la ciudad desde su despacho en Hollywood Boulevard hasta las mansiones de los barrios residenciales, Marlowe deberá adentrarse en un laberinto de perversidad cada vez mas oscuro.",
+    "precio": 1500,
+    "calificacion": "*****"
+  }
+]
