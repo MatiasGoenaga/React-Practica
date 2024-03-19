@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "titulo": "Un lugar soleado para gente sombría",
+    "autor": "Mariana Enriquez",
+    "editorial": "Anagrama",
+    "status": "Super Oferta",
+    "imagen": "1_.jpg",
+    "descripcion": "El señor Machi es el perfecto reflejo del éxito y del desprecio. Dueño de un pequeño imperio en Argentina, hizo su fortuna bajo la dictadura militar y luego la afianzó bajo los dos primeros gobiernos de la democracia casándose con una mujer de doble apellido, hija de un terrateniente. Hasta que un día, encuentra un cadáver en el maletero de su BMW, atado con las esposas rosas de peluche que usa con sus amantes. Y entonces empieza otra historia. Con esta novela explosiva y original, Kike Ferrari llamó la atención de la prensa internacional y conquistó a algunos de los mejores editores del mundo. Un auténtico puñetazo en la mandíbula de todos los lectores.",
+    "precio": 12000,
+    "calificacion": "*****"
+  },
+  {
+    "id": 2,
+    "titulo": "La Llamada",
+    "autor": "Leila Guerriero",
+    "editorial": "Anagrama",
+    "status": " ",
+    "imagen": "2_.jpg",
+    "descripcion": "Mitad western, mitad road movie, Chamamé es una novela salvaje que narra la violencia poniéndola en el ojo del huracán. El Perro y el Pastor son dos criminales despiadados que tomarán rápidamente las armas para batirse a duelo. Chamamé es una historia de amistad, traición, venganza y amor. Publicada originalmente en España, ganó el Premio Dashiell Hammett a la mejor novela policial durante la Semana Negra de Gijón. Con su escritura vertiginosa y visceral, Leonardo Oyola ha demostrado que es uno de los autores más originales del panorama literario de Latinoamérica.",
+    "precio": 15000,
+    "calificacion": "*****"
+  },
+  {
+    "id": 3,
+    "titulo": "Héroes",
+    "autor": "Stephen Fry",
+    "editorial": "Anagrama",
+    "status": " ",
+    "imagen": "3_.jpg",
+    "descripcion": "Trece historias que revelan obsesiones, impulsos y pasiones humanas -la materia que nutre la literatura-, que narran un asesinato, a veces hijo de la venganza, a veces de la codicia, a veces de una suerte de azar. Trece thrillers, relatos estremecedores donde se cruzan el enigma, el erotismo, el espionaje, la crónica de delitos reales y hasta el humor, fruto de la imaginación, la inteligencia y la pluma de excelentes escritores argentinos. Todo ello encontrará el lector en El crimen perfecto.",
+    "precio": 18000,
+    "calificacion": "****"
+  },
+  {
+    "id": 4,
+    "titulo": "El Cáliz de los Dioses",
+    "autor": "Rick Riordan",
+    "editorial": "Salamandra",
+    "status": " ",
+    "imagen": "4_.jpg",
+    "descripcion": "Un inesperado giro del destino ha hecho súbitamente rico al Perro Lascano: el comisario ha recuperado el amor de Eva y se ha jubilado de su puesto en la policía. Su vida se ha vuelto previsible, tranquila y segura. Pero, siendo desde siempre un hombre de acción, el Perro no sabe aburrirse. Por eso, cuando un criminal que agoniza en un hospital penitenciario dice saber quién asesinó a los padres de Lascano cuando este era solo un niño, el excomisario se embarca de inmediato en una obsesiva persecución entre Buenos Aires y Barcelona, poniendo así en peligro cuanto ama, para despejar la incógnita que lo ha acompañado toda la vida.",
+    "precio": 12000,
+    "calificacion": "*****"
+  },
+  {
+    "id": 5,
+    "titulo": "El Adversario",
+    "autor": "Emmanuel Carrère",
+    "editorial": "Anagrama",
+    "status": "Super Oferta",
+    "imagen": "5_.jpg",
+    "descripcion": "Inquietante y peligrosa como la red de una tarántula africana, la nueva novela de María Inés Krimer nos atrapa en el perdido mundo de un pueblito llanero que se debate entre el boom de la soja y el crimen de las fumigaciones tóxicas. Noxa es la nueva confirmación de que María Inés Krimer es una de las mas singulares narradoras argentinas, trascendiendo su inclinación por el género negro. Volvemos, una vez mas, a disfrutar de su tono descarnado, veloz y cautivante, de la arquitectura sorpresiva de su trama, en un relato con rescoldos chandlerianos, propios de una escritora sagaz, propensa al humor y la ironía.",
+    "precio": 9500,
+    "calificacion": "****"
+  },
+  {
+    "id": 6,
+    "titulo": "Sarmiento",
+    "autor": "Martin Caparros",
+    "editorial": "Random House",
+    "status": "Super Oferta",
+    "imagen": "6_.jpg",
+    "descripcion": "El sueño eterno (1939) es la primera novela de Raymond Chandler. Escritor icónico y fundador del policial noir americano. El detective Philip Marlowe se enfrenta a un caso que promete ser sencillo, el viejo General Sterwood, paralítico y muy rico, ha recibido una nota de chantaje, que concierne a su hija menor, la salvaje Carmen. Recorriendo la ciudad desde su despacho en Hollywood Boulevard hasta las mansiones de los barrios residenciales, Marlowe deberá adentrarse en un laberinto de perversidad cada vez mas oscuro.",
+    "precio": 11500,
+    "calificacion": "*****"
+  },
+  {
+    "id": 7,
+    "titulo": "Revolución",
+    "autor": "Arturo Pérez-Reverte",
+    "editorial": "Alfaguara",
+    "status": " ",
+    "imagen": "7_.jpg",
+    "descripcion": "Inquietante y peligrosa como la red de una tarántula africana, la nueva novela de María Inés Krimer nos atrapa en el perdido mundo de un pueblito llanero que se debate entre el boom de la soja y el crimen de las fumigaciones tóxicas. Noxa es la nueva confirmación de que María Inés Krimer es una de las mas singulares narradoras argentinas, trascendiendo su inclinación por el género negro. Volvemos, una vez mas, a disfrutar de su tono descarnado, veloz y cautivante, de la arquitectura sorpresiva de su trama, en un relato con rescoldos chandlerianos, propios de una escritora sagaz, propensa al humor y la ironía.",
+    "precio": 15000,
+    "calificacion": "****"
+  },
+  {
+    "id": 8,
+    "titulo": "De animales a dioses",
+    "autor": "Yuval Noah Harari",
+    "editorial": "Debate",
+    "status": "Super Oferta",
+    "imagen": "8_.jpg",
+    "descripcion": "Inquietante y peligrosa como la red de una tarántula africana, la nueva novela de María Inés Krimer nos atrapa en el perdido mundo de un pueblito llanero que se debate entre el boom de la soja y el crimen de las fumigaciones tóxicas. Noxa es la nueva confirmación de que María Inés Krimer es una de las mas singulares narradoras argentinas, trascendiendo su inclinación por el género negro. Volvemos, una vez mas, a disfrutar de su tono descarnado, veloz y cautivante, de la arquitectura sorpresiva de su trama, en un relato con rescoldos chandlerianos, propios de una escritora sagaz, propensa al humor y la ironía.",
+    "precio": 14000,
+    "calificacion": "****"
+  },
+  {
+    "id": 9,
+    "titulo": "Retratos",
+    "autor": "Truman Capote",
+    "editorial": "Lumen",
+    "status": "Super Oferta",
+    "imagen": "9_.jpg",
+    "descripcion": "Inquietante y peligrosa como la red de una tarántula africana, la nueva novela de María Inés Krimer nos atrapa en el perdido mundo de un pueblito llanero que se debate entre el boom de la soja y el crimen de las fumigaciones tóxicas. Noxa es la nueva confirmación de que María Inés Krimer es una de las mas singulares narradoras argentinas, trascendiendo su inclinación por el género negro. Volvemos, una vez mas, a disfrutar de su tono descarnado, veloz y cautivante, de la arquitectura sorpresiva de su trama, en un relato con rescoldos chandlerianos, propios de una escritora sagaz, propensa al humor y la ironía.",
+    "precio": 10000,
+    "calificacion": "****"
+  },
+  {
+    "id": 10,
+    "titulo": "Springfield",
+    "autor": "Sergio Olguin",
+    "editorial": "Grijalbo",
+    "status": "Super Oferta",
+    "imagen": "10_.jpg",
+    "descripcion": "Inquietante y peligrosa como la red de una tarántula africana, la nueva novela de María Inés Krimer nos atrapa en el perdido mundo de un pueblito llanero que se debate entre el boom de la soja y el crimen de las fumigaciones tóxicas. Noxa es la nueva confirmación de que María Inés Krimer es una de las mas singulares narradoras argentinas, trascendiendo su inclinación por el género negro. Volvemos, una vez mas, a disfrutar de su tono descarnado, veloz y cautivante, de la arquitectura sorpresiva de su trama, en un relato con rescoldos chandlerianos, propios de una escritora sagaz, propensa al humor y la ironía.",
+    "precio": 9000,
+    "calificacion": "****"
+  }
+]

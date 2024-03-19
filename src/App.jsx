@@ -4,6 +4,7 @@ import Home from "./Home";
 import ListadeLibros from "./ListadeLibros";
 import LibroDetalle from "./LibroDetalle";
 import Noticias from "./Noticias";
+import Catalogo from "./Catalogo";
 import "boxicons";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" Component={Home} />
+        <Route path="/Catalogo" Component={Catalogo} />
         <Route path="/Noticias" Component={Noticias} />
         <Route path="/Libros">
           <Route index element={<ListadeLibros />} />

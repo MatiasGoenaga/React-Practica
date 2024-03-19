@@ -1,6 +1,6 @@
 import Header from "./Header";
 import ListadeLibros from "./ListadeLibros";
-import librito from "/retratos.jpg";
+import NuevosLibros from "./NuevosLibros";
 
 function Home() {
   return (
@@ -8,9 +8,10 @@ function Home() {
       <div className="container">
         <Header />
         <ListadeLibros />
-        <div className="logo">
-          <img src={librito} width="320px" alt="Logo de Libreria Erdosain" />
-          <h2>SUPER OFERTA ESPECIAL!</h2>
+        <div className="content">
+          <div className="row mt-4">
+            <NuevosLibros />
+          </div>
         </div>
       </div>
     </>
