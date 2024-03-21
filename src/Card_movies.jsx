@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const NuevosLibros = () => {
-  let api = "librosnuevos.json";
+const Card_movies = () => {
+  let api = "movies.json";
   let [fetchedData, updateFetchedData] = useState([]);
   let display;
 
@@ -13,29 +13,27 @@ const NuevosLibros = () => {
   }, [api]);
   if (fetchedData) {
     display = fetchedData.map((x) => {
-      let { id, titulo, imagen, autor, status, editorial, precio } = x;
+      let { imdbRating, Title, Poster, imdbID } = x;
       return (
         <div
-          key={id}
+          key={imdbID}
           className="col-lg-3 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark "
         >
           <div className="d-flex flex-column justify-content-center">
-            <img className="img img-fluid" src={imagen} alt="" />
-            <div className="fs-3 fw-bold mb-6 text-center">{titulo}</div>
-            <div className="fs-3 fw-bold text-center">{autor}</div>
-            <div className="fs-4 text-center">{editorial}</div>
-            <div className="fs-4 text-center">$ {precio}</div>
+            <img className="img img-fluid" src={Poster} alt="" />
+            <div className="fs-3 fw-bold mb-6 text-center">{Title}</div>
+
             {(() => {
-              if (precio <= 12000) {
+              if (imdbRating >= 7.5 && imdbRating <= 7.9) {
                 return (
                   <div className="badge position-absolute bg-danger">
-                    {status}
+                    Recomendada
                   </div>
                 );
-              } else if (precio >= 12001) {
+              } else if (imdbRating >= 8) {
                 return (
-                  <div className="badge position-absolute bg-success">
-                    {status}
+                  <div className="badge position-absolute bg-primary">
+                    Imprescindible
                   </div>
                 );
               } else {
@@ -53,4 +51,4 @@ const NuevosLibros = () => {
   return <>{display}</>;
 };
 
-export default NuevosLibros;
+export default Card_movies;

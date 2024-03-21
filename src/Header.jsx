@@ -49,7 +49,7 @@ function Header() {
           <img
             className="estante"
             src={estante}
-            width="390px"
+            width="440px"
             alt="Imagen de un estante "
           />
         </div>

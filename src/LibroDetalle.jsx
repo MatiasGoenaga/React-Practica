@@ -15,9 +15,10 @@ function LibroDetalle() {
 
   return (
     <>
-      <div className="container">
+      <div className="container mt-4 card_2">
         <div className="card mb-3">
           <div className="row g-0">
+            <div className="col-md-1"></div>
             <div className="col-md-6">
               <div className="card-body">
                 <h1 className="card-title principal">{libro.titulo}</h1>
@@ -29,7 +30,7 @@ function LibroDetalle() {
                 <h3 className="card-title">$ {libro.precio}</h3>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <img
                 src={libro.imagen}
                 className="img-fluid rounded mx-auto d-block imagen"
