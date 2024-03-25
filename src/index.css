@@ -9,7 +9,7 @@ body {
   text-decoration: none;
 }
 .header {
-  background-color: #f2f250;
+  background-color: #ebeb0c;
 }
 nav {
   text-align: center;
@@ -20,7 +20,7 @@ nav {
   justify-content: space-around;
   padding: 0;
   width: 100%;
-  background-color: #c9c9c9;
+  background-color: #b8afa0;
   height: auto;
   position: relative;
   height: 100%;
@@ -35,7 +35,7 @@ nav {
 }
 .sidebar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #43403a;
   color: white;
 }
 .dropdown {
@@ -56,7 +56,7 @@ nav {
 }
 .dropdown-contenido {
   display: none;
-  background-color: #c9c9c9;
+  background-color: #d4cbb8;
   box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -70,7 +70,7 @@ nav {
 }
 
 .dropdown-contenido a:hover {
-  background-color: #f2f250;
+  background-color: #ebeb0c;
 }
 
 .dropdown:hover .dropdown-contenido {
@@ -173,13 +173,14 @@ span {
   color: #f2f250;
 }
 
-footer {
-  background-color: #f2f250;
+.footer {
+  background-color: #ebeb0c;
 }
 
 .flex {
   display: flex;
-  justify-content: space-around;
+  gap: 45px;
+  justify-content: center;
   padding: 5px;
 }
 .redes {
@@ -225,6 +226,24 @@ footer {
   top: 10px;
   right: 20px;
   font-size: 18px !important;
+}
+.circulo {
+  background-color: #ebeb0c;
+  top: 10px;
+  left: 20px;
+  text-align: center;
+  border: 3px solid #ebeb0c;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.ratings {
+  margin-top: 2px;
+  font-size: 23px;
+  color: black;
+}
+.mitad {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -289,6 +308,7 @@ footer {
   }
   .imagen {
     padding-top: 12px;
+    padding-bottom: 15px;
   }
   .seccion_3 {
     margin-left: 100px;
@@ -297,10 +317,6 @@ footer {
   }
   .uno {
     margin-left: 100px;
-  }
-  .flex {
-    gap: 10px;
-    justify-content: stretch;
   }
 
   .local {
@@ -314,10 +330,6 @@ footer {
     display: none;
   }
   .calle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 2;
     font-size: 1.2em;
     text-align: center;
   }
@@ -372,9 +384,6 @@ footer {
     font-size: 1.5em;
   }
 
-  .flex {
-    gap: 10px;
-  }
   .local {
     width: 65%;
   }
@@ -382,7 +391,7 @@ footer {
     font-size: 2em;
   }
   .calle {
-    font-size: 1em;
+    font-size: 1.6em;
   }
 }
 
@@ -424,10 +433,10 @@ footer {
     font-size: 2em;
   }
   .card-text {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .img-fluid {
-    width: 500px;
+    width: 400px;
   }
   .volver {
     font-size: 2em;
@@ -449,14 +458,10 @@ footer {
     border-radius: 12px 12px 12px 12px;
     background-color: #eff5f5;
   }
-  .card_2 {
-    position: absolute;
-    z-index: -1;
-  }
   .as {
     position: relative;
   }
-}
-.row_1 {
-  margin-left: 100px !important;
+  .row_1 {
+    margin-left: 100px !important;
+  }
 }

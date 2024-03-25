@@ -15,42 +15,43 @@ function LibroDetalle() {
 
   return (
     <>
-      <div className="container mt-4 card_2">
-        <div className="card mb-3">
-          <div className="row g-0">
-            <div className="col-md-1"></div>
-            <div className="col-md-6">
-              <div className="card-body">
-                <h1 className="card-title principal">{libro.titulo}</h1>
-                <h2 className="card-title secundario">{libro.autor}</h2>
-                <h5 className="card-title">
-                  <span>Editorial:</span> {libro.editorial}
-                </h5>
-                <p className="card-text card_1">{libro.descripcion}</p>
-                <h3 className="card-title">$ {libro.precio}</h3>
-              </div>
-            </div>
-            <div className="col-md-5">
-              <img
-                src={libro.imagen}
-                className="img-fluid rounded mx-auto d-block imagen"
-                alt="imagen libro"
-              />
+      <div className="container  text-center border">
+        <div className="row row_1">
+          <div className="col-md-6">
+            <div className="card-body card_2 ">
+              <h1 className="card-title principal">{libro.titulo}</h1>
+              <h2 className="card-title secundario">{libro.autor}</h2>
+              <h5 className="card-title">
+                <span>Editorial:</span> {libro.editorial}
+              </h5>
+              <p className="card-text card_1">{libro.descripcion}</p>
+              <h3 className="card-title">$ {libro.precio}</h3>
             </div>
           </div>
+          <div className="col-md-6">
+            <img
+              src={libro.imagen}
+              className=" img img-fluid rounded float-end  imagen"
+              alt="imagen libro"
+            />
+          </div>
         </div>
-        <section className="back  ">
-          <Link to={"/"} className="none volver">
-            <i className="bx bxs-left-arrow bx-md"></i>
-            Volver
-          </Link>
-        </section>
-        <footer>
-          <p className="copy">&copy; 2023 - Web Design by El Astrólogo</p>
-        </footer>
       </div>
     </>
   );
 }
 
 export default LibroDetalle;
+
+/* <div className="mt-4 card_2">
+          <div className="card mb-3">
+            <div className="row text-justify justify-content-end g-0 ">
+              
+          </div> */
+
+//   <section className="back  ">
+//   <Link to={"/"} className="none volver">
+//     <i className="bx bxs-left-arrow bx-md"></i>
+//     Volver
+//   </Link>
+// </section>

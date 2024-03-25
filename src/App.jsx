@@ -8,6 +8,8 @@ import LibroDetalle from "./LibroDetalle";
 import Noticias from "./Noticias";
 import Catalogo from "./Catalogo";
 import "boxicons";
+import Card_catalogo from "./Card_catalogo";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="/" Component={Home} />
 
           <Route path="/Catalogo" Component={Catalogo} />
+          <Route path="/Catalogo/:imdbID" Component={Card_catalogo} />
 
           <Route path="/Noticias" Component={Noticias} />
           <Route path="/Libros">
@@ -25,6 +28,7 @@ function App() {
             <Route path=":id" element={<LibroDetalle />} />
           </Route>
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Card_movies = () => {
   let api = "movies.json";
@@ -15,9 +16,10 @@ const Card_movies = () => {
     display = fetchedData.map((x) => {
       let { imdbRating, Title, Poster, imdbID } = x;
       return (
-        <div
+        <Link
+          to={`/Catalogo/${imdbID}`}
           key={imdbID}
-          className="col-lg-3 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark "
+          className="col-lg-3 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark mitad "
         >
           <div className="d-flex flex-column justify-content-center">
             <img className="img img-fluid" src={Poster} alt="" />
@@ -40,8 +42,13 @@ const Card_movies = () => {
                 return;
               }
             })()}
+            <div className="circulo position-absolute">
+              <div className="ratings">
+                <span className="mitad">{imdbRating}</span>
+              </div>
+            </div>
           </div>
-        </div>
+        </Link>
       );
     });
   } else {
