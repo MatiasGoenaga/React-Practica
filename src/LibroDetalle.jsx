@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 function LibroDetalle() {
   const { id } = useParams();
@@ -42,16 +42,3 @@ function LibroDetalle() {
 }
 
 export default LibroDetalle;
-
-/* <div className="mt-4 card_2">
-          <div className="card mb-3">
-            <div className="row text-justify justify-content-end g-0 ">
-              
-          </div> */
-
-//   <section className="back  ">
-//   <Link to={"/"} className="none volver">
-//     <i className="bx bxs-left-arrow bx-md"></i>
-//     Volver
-//   </Link>
-// </section>
