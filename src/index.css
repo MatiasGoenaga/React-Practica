@@ -245,6 +245,29 @@ span {
 .mitad {
   text-decoration: none;
 }
+.libro_detalle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 310px;
+  left: 75px;
+  gap: 11px;
+  width: 50%;
+}
+.item {
+  background-color: blue;
+  color: #ffffff;
+  padding: 6px;
+  width: 100%;
+  height: auto;
+}
+.item:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
 
 @media screen and (min-width: 768px) {
   .sidebar {

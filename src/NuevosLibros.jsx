@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const NuevosLibros = () => {
   let api = "librosnuevos.json";
   let [fetchedData, updateFetchedData] = useState([]);
+  const [show, setShow] = useState(-1);
+
   let display;
 
   useEffect(() => {
@@ -18,6 +21,8 @@ const NuevosLibros = () => {
         <div
           key={id}
           className="col-lg-3 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark "
+          onMouseEnter={() => setShow(id)}
+          onMouseLeave={() => setShow(-1)}
         >
           <div className="d-flex flex-column justify-content-center">
             <img className="img img-fluid" src={imagen} alt="" />
@@ -42,6 +47,15 @@ const NuevosLibros = () => {
                 return;
               }
             })()}
+            {show === id ? (
+              <div className="libro_detalle">
+                <Link to={`/${id}`}>
+                  <button className="item">VER DETALLE</button>
+                </Link>
+
+                <button className="item">AGREGAR AL CARRITO</button>
+              </div>
+            ) : null}
           </div>
         </div>
       );

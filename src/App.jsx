@@ -10,6 +10,7 @@ import Catalogo from "./Catalogo";
 import "boxicons";
 import Card_catalogo from "./Card_catalogo";
 import Footer from "./Footer";
+import NuevosLibros_detalle from "./NuevosLibros_detalle";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" Component={Home} />
-
+          <Route path="/:id" Component={NuevosLibros_detalle} />
           <Route path="/Catalogo" Component={Catalogo} />
           <Route path="/Catalogo/:imdbID" Component={Card_catalogo} />
 
