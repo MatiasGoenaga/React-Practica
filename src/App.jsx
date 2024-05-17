@@ -11,6 +11,7 @@ import "boxicons";
 import Card_catalogo from "./Card_catalogo";
 import Footer from "./Footer";
 import NuevosLibros_detalle from "./NuevosLibros_detalle";
+import Libros_2024 from "./Libros_2024";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/:id" Component={NuevosLibros_detalle} />
           <Route path="/Catalogo" Component={Catalogo} />
           <Route path="/Catalogo/:imdbID" Component={Card_catalogo} />
-
+          <Route path="/Nuevos_Libros" Component={Libros_2024} />
           <Route path="/Noticias" Component={Noticias} />
           <Route path="/Libros">
             <Route index element={<ListadeLibros />} />

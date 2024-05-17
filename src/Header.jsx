@@ -20,6 +20,9 @@ function Header() {
           <Link className="none" to="/Noticias">
             Noticias
           </Link>
+          <Link className="none" to="/Nuevos_Libros">
+            Libros
+          </Link>
           <div className="dropdown">
             <button className="dropbtn">Redes</button>
             <div className="dropdown-contenido">

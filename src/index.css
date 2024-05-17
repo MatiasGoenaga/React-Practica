@@ -1,5 +1,10 @@
 @import url(https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@600&display=swap");
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
 
 body {
   background-color: #ffffff;
@@ -267,6 +272,18 @@ span {
 .item:hover {
   background-color: #ffffff;
   color: #000000;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.filters label {
+  padding: 20px;
+}
+.filters span {
+  padding: 15px;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
